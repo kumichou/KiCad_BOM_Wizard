@@ -21,10 +21,16 @@ then it would be groupd as so;
 sudo apt-get install nodejs
 sudo apt-get install npm
 ```
+
+### installing nodejs on OSX with HomeBrew:
+```sh
+brew install node
+```
+
 ### installing nodejs on other system:
     https://nodejs.org/en/download/
 
-# Arthur: 
+# Author: 
 Ronald Sousa HashDefineElectronics.com
 
 # Repository: 
