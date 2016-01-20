@@ -192,7 +192,6 @@ function GenerateTableHtml(fieldsList, groupedList, partGroupedList)
         TableHtmlTemp = TableHtmlTemp.replace(/<!--TAG_BOM_TABLE_GROUP_TITLE-->/g,GroupdName);
 
         var TableRowAll = "";
-
         for ( var Item in partGroupedList[GroupdName] )
         {
             var TempRow = HtmlTableRowTemplate;
