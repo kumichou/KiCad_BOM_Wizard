@@ -178,7 +178,6 @@ function GenerateTableHtml(fieldsList, groupedList, partGroupedList)
     for ( var FieldIndex = 0; FieldIndex <  fieldsList.length; FieldIndex++ )
     {
         HtmlHeader += HtmlTableRowHeaderTemplate.replace(/<!--TAG_BOM_TABLE_ROW_HEADER-->/g,  fieldsList[ FieldIndex ] );
-
     }
 
     groupedList.sort();
@@ -193,6 +192,7 @@ function GenerateTableHtml(fieldsList, groupedList, partGroupedList)
         TableHtmlTemp = TableHtmlTemp.replace(/<!--TAG_BOM_TABLE_GROUP_TITLE-->/g,GroupdName);
 
         var TableRowAll = "";
+
         for ( var Item in partGroupedList[GroupdName] )
         {
             var TempRow = HtmlTableRowTemplate;
